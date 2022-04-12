@@ -1,0 +1,87 @@
+body {
+background-image: url("background.jpg");
+background-size: 100%;
+overflow: hidden;
+}
+
+/* si lo so, c'è qualcosa di sbagliato nelle misure. Ad esempio margin left e
+right mi sembrano due valori irrealistici. Probabilmente 80 + 80 + il contenuto
+del blocco sfora la misura max della pagina. 
+ */
+
+#contenitore {
+  display: block;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-top: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  }
+
+#logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(0,255,0);
+  text-align: center;
+}
+
+h5 {margin-top: -15px;
+    color: white;
+  }
+
+nav{ text-align: center;
+    background-color: rgb(0,255,0);
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+#statocarica{
+  color: white;
+  margin-top: -15px;
+}
+
+.Mono{
+  display: inline-block;
+}
+
+.Pattini{
+
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+
+#Gino22 {
+  background-color: orange;
+  height: 16px;
+  width: 30%;
+  display: block;
+}
+
+#Mike24 {
+  background-color: red;
+  height: 16px;
+  width: 20%;
+  display: block;
+}
+
+#Fede126 {
+  background-color: green;
+  height: 16px;
+  width: 60%;
+  display: block;
+}
